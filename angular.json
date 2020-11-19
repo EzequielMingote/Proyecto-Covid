@@ -121,8 +121,13 @@
               "devServerTarget": "foro:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "foro"
 }
